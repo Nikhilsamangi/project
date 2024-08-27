@@ -32,7 +32,7 @@ export const useSignUpForm = () => {
     if (role === "admin") {
       if (!inviteCode) {
         newErrors.inviteCode = "Invite code is required for admin.";
-      } else if (inviteCode !== "345708") {
+      } else if (inviteCode !== "3456") {
         newErrors.inviteCode = "Invalid invite code.";
       }
     }
